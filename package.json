@@ -1,0 +1,50 @@
+{
+  "name": "reactweather",
+  "version": "1.0.0",
+  "description": "Simple react app",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesarrodas/hello-react.git"
+  },
+  "author": "Cesar Rodas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cesarrodas/hello-react/issues"
+  },
+  "homepage": "https://github.com/cesarrodas/hello-react#readme",
+  "dependencies": {
+    "axios": "^0.13.1",
+    "express": "^4.14.0",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "react-router": "^2.7.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "expect": "^1.14.0",
+    "foundation-sites": "^6.2.0",
+    "jquery": "^2.2.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-mocha": "^0.2.2",
+    "karma-mocha-reporter": "^2.0.0",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^1.7.0",
+    "mocha": "^2.4.5",
+    "node-sass": "^3.8.0",
+    "sass-loader": "^4.0.0",
+    "script-loader": "^0.6.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.13.2"
+  }
+}
