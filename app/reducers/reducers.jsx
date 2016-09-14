@@ -42,6 +42,8 @@ export var todosReducer = (state = [], action) => {
 						completed: nextCompleted,
 						completedAt: nextCompleted ? moment().unix() : undefined
 					};
+				} else {
+					return todo;
 				}
 			});
 		// add case for TOGGLE_TODO completed equal to opposite value & updateCompletedAt
