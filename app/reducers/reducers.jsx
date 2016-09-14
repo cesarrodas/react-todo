@@ -46,6 +46,11 @@ export var todosReducer = (state = [], action) => {
 					return todo;
 				}
 			});
+		case 'ADD_TODOS':
+			return [
+				...state,
+				...action.todos
+			];
 		// add case for TOGGLE_TODO completed equal to opposite value & updateCompletedAt
 		default:
 		 	return state;
