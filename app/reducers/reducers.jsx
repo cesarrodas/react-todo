@@ -42,6 +42,8 @@ export var todosReducer = (state = [], action) => {
 				...state,
 				...action.todos
 			];
+		case 'LOGOUT':
+			return [];
 		// add case for TOGGLE_TODO completed equal to opposite value & updateCompletedAt
 		default:
 		 	return state;
